@@ -42,7 +42,7 @@ class NoteListViewModel @Inject constructor(
                         id = null,
                         title = "Note $it",
                         content = "Content $it",
-                        colorHex = RedPinkHex,
+                        colorHex = Note.generateRandomColor(),
                         created = DateTimeUtil.now()
                     )
                 )
